@@ -1,2 +1,10 @@
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.exe.config
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.exe.config
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.exe
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.pdb
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual-numeric-keyboard.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual_numeric_keyboard.Form1.resources
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual_numeric_keyboard.Properties.Resources.resources
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual-numeric-keyboard.csproj.GenerateResource.Cache
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual-numeric-keyboard.exe
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\obj\Debug\virtual-numeric-keyboard.pdb
