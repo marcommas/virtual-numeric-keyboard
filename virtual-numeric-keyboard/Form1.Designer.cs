@@ -39,8 +39,8 @@
             this.btnNine = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
             this.tbNumbers = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBackspace = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOne
@@ -197,38 +197,43 @@
             // 
             this.tbNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNumbers.Location = new System.Drawing.Point(39, 45);
+            this.tbNumbers.MaxLength = 100;
             this.tbNumbers.Name = "tbNumbers";
             this.tbNumbers.ReadOnly = true;
+            this.tbNumbers.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tbNumbers.Size = new System.Drawing.Size(237, 49);
             this.tbNumbers.TabIndex = 10;
+            this.tbNumbers.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
+            // btnBackspace
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Window;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(324, 142);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 75);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Backspace";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBackspace.BackColor = System.Drawing.SystemColors.Window;
+            this.btnBackspace.FlatAppearance.BorderSize = 2;
+            this.btnBackspace.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnBackspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBackspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackspace.Location = new System.Drawing.Point(324, 142);
+            this.btnBackspace.Name = "btnBackspace";
+            this.btnBackspace.Size = new System.Drawing.Size(174, 75);
+            this.btnBackspace.TabIndex = 11;
+            this.btnBackspace.Text = "Backspace";
+            this.btnBackspace.UseVisualStyleBackColor = false;
+            this.btnBackspace.Click += new System.EventHandler(this.btnBackspace_Click);
             // 
-            // button2
+            // btnClear
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Window;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(324, 229);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 75);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Limpar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.SystemColors.Window;
+            this.btnClear.FlatAppearance.BorderSize = 2;
+            this.btnClear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(324, 229);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(174, 75);
+            this.btnClear.TabIndex = 12;
+            this.btnClear.Text = "Limpar";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Form1
             // 
@@ -236,8 +241,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(523, 473);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnBackspace);
             this.Controls.Add(this.tbNumbers);
             this.Controls.Add(this.btnZero);
             this.Controls.Add(this.btnNine);
@@ -270,8 +275,8 @@
         private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnZero;
         private System.Windows.Forms.TextBox tbNumbers;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBackspace;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
