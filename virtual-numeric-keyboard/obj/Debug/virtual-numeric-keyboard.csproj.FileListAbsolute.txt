@@ -1,0 +1,2 @@
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.exe.config
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\virtual-numeric-keyboard\virtual-numeric-keyboard\bin\Debug\virtual-numeric-keyboard.exe.config
